@@ -42,6 +42,8 @@ func main() {
 	var nameFromMap, ageFromMap = myMap["Jason"]
 	fmt.Println(nameFromMap, ageFromMap)
 
+	// Loops
+
 	for name, age := range(myMap) {
 		fmt.Printf("Name is %v and Age is %v \n", name, age)
 	}
